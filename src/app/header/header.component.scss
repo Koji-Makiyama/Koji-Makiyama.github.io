@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1060px) {
     .header {
         padding-bottom: 20px;
         margin-bottom: 10px;
@@ -9,6 +9,7 @@ header {
     max-width: 100vw;
     max-height: 200px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 .header-text {

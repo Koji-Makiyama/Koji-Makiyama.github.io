@@ -27,13 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Self-Documented Instructions For Deploying this Angular app to ghpages
-(from github.com go to delete branch gh-pages)
-git branch -d gh-pages
+(from github.com go to delete branch gh-pages) // delete remote gh-pages branch
+git branch -d gh-pages                         // delete local gh-pages branch
 
-git branch gh-pages
-git checkout gh-pages
-git push origin gh-pages
+git branch gh-pages                            // create local gh-pages branch
+git checkout gh-pages                          // move to that new local branch
+git push origin gh-pages                       // push or connect your local branch to a new remote one in your repository
+// will only display readme at this point, until next line is executed (ng deploy)
 // ng add angular-cli-ghpages    (only had to do this the first time)
-ng deploy --base-href=https://koji-makiyama.github.io/
+ng deploy --base-href=https://koji-makiyama.github.io/     // deploy code to Github Pages Cloud
 
 (from github.com go to repo -> settings -> pages, set dropdown to gh-pages -> /root)
