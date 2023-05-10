@@ -7,3 +7,9 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(84, 158, 0);
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.6em;
+    }
+}
