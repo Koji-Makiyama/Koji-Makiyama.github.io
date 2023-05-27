@@ -3,6 +3,10 @@ hr {
     margin: 10px auto;
 }
 
+h5 {
+    margin: 8px;
+}
+
 ul {
     padding: 0px;
     margin: 0px;
@@ -13,21 +17,26 @@ li {
     list-style: none;
 }
 
-@media screen and (max-width: 680px) {
-    #angular-logo {
-        padding-top: 5px;
-        width: 30%;
-    }
+// @media screen and (max-width: 680px) {
+//     #tech-logo {
+//         width: 20%;
+//     }
+// }
+
+// @media screen and (min-width: 680px) {
+//     #tech-logo {
+//         width: 20%;
+//     }
+// }
+
+.tech-logo {
+    width: 5%;
+    padding-left: 20px;
 }
 
-@media screen and (min-width: 680px) {
-    #angular-logo {
-        padding-top: 15px;
-        padding-right: 15px;
-        width: 20%;
-    }
+#net-logo {
+    padding-top: 5px;
 }
-
 
 #span-highlight {
     color: orange;
@@ -44,7 +53,10 @@ li {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     width: 100%;
-    height: 203px;
+    margin: auto;
+    width: 100%;
+    border-radius: 15px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
 .mobile-picture {
@@ -57,8 +69,8 @@ li {
     margin: auto;
     display: block;
     border-radius: 15px;
-    border: 3px solid rgb(255, 255, 255);
-    box-shadow: 0px 6px 20px rgb(232, 245, 156);
+    border: 5px solid rgb(255, 255, 255);
+    // box-shadow: 0px 6px 20px rgb(232, 245, 156);
 }
 
 .mobile-img-container {
@@ -94,13 +106,12 @@ li {
 .footer {
     position: relative;
     bottom: 0;
-    width: 100%;
     background-color: grey;
     color: white;
-    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 10px;
     border: 5px solid rgb(255, 255, 255);
-    box-shadow: 0px 5px 20px rgb(232, 245, 156);
 }
 
 .header-text {
@@ -117,7 +128,6 @@ object {
     padding-bottom: 10px;
     border-radius: 10px;
     border: 5px solid rgb(255, 255, 255);
-    box-shadow: 0px 5px 20px rgb(232, 245, 156);
     background-color: white;
 }
 
@@ -127,57 +137,36 @@ object {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
     }
 }
 
 .img-container {
-    width: 18%;
-    max-height: 203px;
+    width: 20%;
     margin: auto;
-    border-radius: 15px;
-    border: 3px solid rgb(255, 255, 255);
-    box-shadow: 0px 6px 20px rgb(232, 245, 156);
+    // box-shadow: 0px 6px 20px rgb(232, 245, 156);
 }
 
 .demo-container {
     width: 80%;
     height: 100%;
     margin: auto;
-    border-radius: 15px;
-    border: 5px solid rgb(255, 255, 255);
-    box-shadow: 0px 5px 20px rgb(232, 245, 156);
     background-color: white;
     text-align: center;
+    border-radius: 15px;
 }
 
-@media screen and (min-width: 1060px) {
-    .text-container {
-        width: 70%;
-        margin: auto;
-        border-radius: 15px;
-        border: 5px solid rgb(255, 255, 255);
-        box-shadow: 0px 5px 20px rgb(232, 245, 156);
-        background-color: white;
-        text-align: center;
-    }
+.text-container {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 15px;
+    border: 5px solid rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 1060px) {
-    .text-container {
-        width: 70%;
-        margin: auto;
-        border-radius: 15px;
-        border: 5px solid rgb(255, 255, 255);
-        box-shadow: 0px 5px 20px rgb(232, 245, 156);
-        background-color: white;
-        text-align: center;
-    }
-}
-
-.img-container:hover {
+.profile-picture:hover, .mobile-picture:hover {
     // transform: translateY(-3px);
-}
+    box-shadow: 0px 6px 20px rgb(255, 255, 255);
 
-.wrapper {
-    margin-right: 10px;
 }
