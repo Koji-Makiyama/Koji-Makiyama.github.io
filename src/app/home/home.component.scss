@@ -17,18 +17,34 @@ li {
     list-style: none;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .react-spin {
+      animation: react-logo-spin infinite 4s linear;
+      pointer-events: none;
+    }
+}
+
+@keyframes react-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
 .tech-logo {
     width: 5%;
     padding-left: 5px;
 }
 
-#net-logo {
-    padding-top: 5px;
+#react-logo {
+    width: 5%;
 }
 
-#span-highlight {
-    color: orange;
-    font-weight: bold;
+#net-logo {
+    padding-top: 5px;
 }
 
 .last-anchor {
@@ -80,6 +96,14 @@ li {
 
 #p-red {
     color: red;
+}
+
+#div-purple {
+    color: purple;
+}
+
+#span-orange {
+    color: orange;
 }
 
 #span-green {
