@@ -17,21 +17,20 @@ li {
     list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .react-spin {
-      animation: react-logo-spin infinite 4s linear;
-      pointer-events: none;
-    }
+.react-spin {
+    animation: react-logo-spin infinite 4s linear;
+    pointer-events: none;
 }
 
 @keyframes react-logo-spin {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
 
 
 .tech-logo {
@@ -39,7 +38,7 @@ li {
     padding-left: 5px;
 }
 
-#react-logo {
+.angular-react-logo {
     width: 5%;
 }
 
@@ -102,8 +101,8 @@ li {
     color: purple;
 }
 
-#span-orange {
-    color: orange;
+#span-violet {
+    color: rgb(255, 146, 127);
 }
 
 #span-green {
@@ -145,7 +144,7 @@ object {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        
+
     }
 }
 
@@ -172,7 +171,8 @@ object {
     border: 5px solid rgb(255, 255, 255);
 }
 
-.profile-picture:hover, .mobile-picture:hover {
+.profile-picture:hover,
+.mobile-picture:hover {
     box-shadow: 0px 6px 20px rgb(255, 255, 255);
 
 }
