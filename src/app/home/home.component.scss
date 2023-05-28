@@ -42,6 +42,22 @@ li {
     width: 5%;
 }
 
+.mongo-azure-logo {
+    width: 15%;
+}
+
+@media screen and (min-width: 1059px) {
+    .mongo-azure-logo {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1059px) {
+    .mongo-azure-logo {
+        width: 15%;
+    }
+}
+
 #net-logo {
     padding-top: 5px;
 }
