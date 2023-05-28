@@ -1,0 +1,142 @@
+hr {
+    width: 40%;
+    margin: 10px auto;
+}
+
+h5 {
+    margin: 8px;
+}
+
+h6 {
+    margin: 5px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+.demo-container {
+    //margin-bottom: 145px; does nothing
+    //border-bottom: 145px; does nothing
+    // padding-bottom: 145px; this will push the white div down forever
+    margin: 5%;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) { // start hiding some at 768
+    .smallest-br, .small-br {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) { // start hiding some at 320
+    .smallest-br {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .angular-react-logo {
+        width: 3%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .angular-react-logo {
+        width: 6%;
+    }
+}
+
+.react-spin {
+    animation: react-logo-spin infinite 4s linear;
+    pointer-events: none;
+}
+
+@keyframes react-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 1059px) {
+    .mongo-azure-logo {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1059px) {
+    .mongo-azure-logo {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    #linkedin-logo {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #linkedin-logo {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    #github-logo {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #github-logo {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    #react-logo-container {
+        width: 5%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #react-logo-container {
+        width: 13%;
+    }
+}
+
+@media screen and (min-width: 1022px) {
+    #resume-icon {
+        width: 7%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #resume-icon {
+        width: 13%;
+    }
+}
+
+#net-logo {
+    padding-top: 5px;
+}
+
+.tech-logo {
+    width: 5%;
+    padding-left: 5px;
+}

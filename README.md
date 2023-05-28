@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Logo permission links
+https://www.adobe.com/legal/permissions/icons-web-logos.html
+https://brand.linkedin.com/downloads
+
 ## Self-Documented Instructions For Deploying this Angular app to ghpages
 (from github.com go to delete branch gh-pages) // delete remote gh-pages branch
 git branch -d gh-pages                         // delete local gh-pages branch

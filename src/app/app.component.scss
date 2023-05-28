@@ -1,4 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .app-container {
     position: relative;
-    min-height: 80vh;
+    min-height: 100%;
   }
+
+//   <div class="app-container">
+//     <app-header class="header"></app-header>
+//     <div>
+//         <router-outlet class="body"></router-outlet>
+//     </div>
+//     <app-footer class="footer"></app-footer>
+// </div>
